@@ -22,7 +22,6 @@ function sortAndStringfy(list) {
 const createDate = function(dates, index){
 	// execute
 	const result = []
-	const sortResult = []
 	for (let i = 0; i < dates.length; i++) {
 		result.push(Date.parse(dates[i]) ? Date.parse(dates[i]) / 1000 : 'Invalid date format')
 	}
