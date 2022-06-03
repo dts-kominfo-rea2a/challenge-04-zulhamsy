@@ -16,21 +16,10 @@ function sortAndStringfy(list) {
 		result.push(initial[i].toString())
 	}
 	
-	return result
+	return result.join('-')
 }
 
 const createDate = function(dates, index = null) {
-	// check first argument
-	if (!Array.isArray(dates)) {
-		console.warn('Invalid first argument, you should pass Array of String')
-		return
-	}
-	// check second argument
-	if (!Number.isInteger(index) && index !== null) {
-		console.warn('Invalid second argument, you should pass Number between 0 and ' + dates.length - 1 + ' instead of ' + typeof index)
-		console.info('Or you can leave it blank')
-		return
-	}
 	// execute
 	const result = []
 	const sortResult = []
