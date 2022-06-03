@@ -32,7 +32,7 @@ const createDate = function(dates, index){
 	} else {
 		return sortAndStringfy(result)
 	}
-}
+};
 
 // ! JANGAN DIMODIFIKASI
 (() => {
