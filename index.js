@@ -19,7 +19,7 @@ function sortAndStringfy(list) {
 	return result.join('-')
 }
 
-const createDate = function(dates, index) {
+const createDate = function(dates, index){
 	// execute
 	const result = []
 	const sortResult = []
